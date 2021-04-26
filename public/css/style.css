@@ -1,0 +1,31 @@
+
+  body {
+    place-items: center;
+    background: linear-gradient(135deg, hsl(180, 70%, 50%));
+  }
+  form {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: space-evenly;
+  }
+ h1{
+   text-align: center;
+   margin-top: 50px;
+   margin-bottom: 80px;
+   color:red; 
+   font-weight: bold;
+ }
+ .label{
+   text-align: center;
+   font-weight: bolder;
+ }
+ img{
+   text-align:center;
+   height:250px;
+   width:250px;
+  }
+  #scan{
+    margin-left: 35px;
+  }
